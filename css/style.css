@@ -18,7 +18,52 @@ html, body {
   width: 270px;
   padding: 10px;
   }
+  
+  .nextPage{
+    text-align: center;
+    color: #BAE498;
+    font-family: "Fantasy", "Courier New", monospace;
+  }
+
+  .nextPage a{
+   
+    rotate: -18deg;
+    color: rgb(0, 166, 150);
+  }
+
+  .nextPage a:hover{
+    font-family: "Trebuchet MS", Verdana, fantasy;
+    rotate: -18deg;
+    color: rgb(207, 0, 0);
+  }
 
   .part2 { 
     text-align: center;
   }
+
+  .part3 { 
+    color: aqua;
+    font-family: "Fantasy", "Courier New", monospace;
+    text-align: center;
+  }
+
+  .part3 a{
+    color: rgb(43, 226, 52);
+  }
+ 
+  .part3 a:hover{
+    font-size: 30px;
+    font-family: "Trebuchet MS", Verdana, fantasy;
+    rotate: -18deg;
+    color: rgb(207, 0, 0);
+  }
+
+  .part3 a:active{
+    color: aquamarine;
+  }
+
+  .part3 a:focus{
+    border-bottom: 1px solid;
+    background: #BAE498;
+  }
+
