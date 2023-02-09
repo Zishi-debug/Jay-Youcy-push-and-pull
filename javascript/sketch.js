@@ -4,6 +4,7 @@ let handPlay;
 let r,g,b;
 let poem;
 let handDraw = true;
+let canvas;
 
 function preload(){
   hand[0]= loadImage('source/hand/hand1.png');
@@ -13,7 +14,8 @@ function preload(){
   hand[4]= loadImage('source/hand/hand5.png');
 }
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  canvas = createCanvas(windowWidth, windowHeight);
+  canvas.parent("sketch-container");
   imageMode(CENTER);
   handPlay=0;
   r=0

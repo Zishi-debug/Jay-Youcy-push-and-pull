@@ -10,7 +10,7 @@ function preload(){
 }
 function setup(){
     canvas = createCanvas(windowWidth, windowHeight);
-    canvas.parent("sketch-container");
+    canvas.parent("sketch-container-3");
     imageMode(CENTER);
 
     moveX = 0;
@@ -18,7 +18,7 @@ function setup(){
     shake = false;
 }
 function draw(){
-    background(255);
+    background(51, 24, 54);
     push();
     translate(windowWidth/2+ moveX, windowHeight/2+ moveY);
     scale(0.1,0.1);

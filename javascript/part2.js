@@ -9,7 +9,7 @@ function preload() {
 
 function setup() {
   canvas = createCanvas(windowWidth, windowHeight);
-  canvas.parent("sketch-container");
+  canvas.parent("sketch-container-2");
   x = 0;
   y = 0;
   x_ = windowWidth/2;
