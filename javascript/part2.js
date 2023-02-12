@@ -1,10 +1,10 @@
 let sky, body, lotus, lotus2;
 let x, y, x_, y_;
 function preload() {
-  sky = loadImage('/../source/lotus/sky.jpeg');
-  body = loadImage('/../source/lotus/body.png');
-  lotus = loadImage('/../source/lotus/lotus.png');
-  lotus2 = loadImage('/../source/lotus/lotus2.png');
+  sky = loadImage('./../source/lotus/sky.jpeg');
+  body = loadImage('./../source/lotus/body.png');
+  lotus = loadImage('./../source/lotus/lotus.png');
+  lotus2 = loadImage('./../source/lotus/lotus2.png');
 }
 
 function setup() {
