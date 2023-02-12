@@ -1,9 +1,9 @@
 let human1, human2, ceiling, r, sizeX, sizeY;
 
 function preload(){
-    human1 = loadImage('../../source/human/human1.png');
-    human2 = loadImage('../../source/human/human2.png');
-    ceiling = loadImage('../../source/human/ceiling.jpeg');
+    human1 = loadImage('./../source/human/human1.png');
+    human2 = loadImage('./../source/human/human2.png');
+    ceiling = loadImage('./../source/human/ceiling.jpeg');
     
 }
 
