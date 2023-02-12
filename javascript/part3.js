@@ -4,7 +4,7 @@ let rose, chainsaw;
 let moveX, moveY;
 let shake;
 function preload(){
-    rose = loadImage('./../source/rose/rose.png');
+    rose = loadImage('../source/rose/rose.png');
     //chainsaw = loadSound('../../source/rose/chainsaw.wav');
     
 }
